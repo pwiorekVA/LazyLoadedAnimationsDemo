@@ -1,0 +1,22 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.moving-box {
+  width: 200px;
+  height: 200px;
+  background: greenyellow;
+  border: 1px solid black;
+  position: relative;
+  transform: translateX(1vw);
+}

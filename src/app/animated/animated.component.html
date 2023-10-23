@@ -1,0 +1,4 @@
+<div class="container">
+  <button (click)="toggleState()">Run animation</button>
+  <div class="moving-box" [@moveLeftRight]="isMoved ? 'open' : 'closed'"></div>
+</div>
